@@ -1,2 +1,0 @@
-# smartHome
-Landing page website
