@@ -146,6 +146,7 @@
     }
     .metaverse-blocks:after{
         z-index: 1;
+        top: -40px;
         right: 0;
         opacity: 0.2;
     }
