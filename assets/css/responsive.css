@@ -1,0 +1,362 @@
+@media all and (max-width:768px){
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .hamburger .bar{
+        background-color: #ffffff;
+    }
+    .menu-buttons .nav-btn{
+        padding: 8px 10px;
+        font-size: 9px;
+    }
+    .menu-buttons li .ticket-btn {
+        padding: 10px;
+    }
+    .logo .navbar a{
+        font-size: 10px;
+    }
+    .navbar .nav-menu.active a{
+        font-size: 18px;
+        color: #000000;
+    }
+    .nav-menu.active {
+        left: 0;
+        top: 3.8rem;
+        padding: 20px 0 0;
+    }
+    .nav-item {
+        margin: 0;
+        width: 100%;
+    }
+    .nav-menu li:not(:last-child) {
+        margin-right: 0;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #site-header.scrollUp {
+        transform: none;
+    }    
+    .nav-menu {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .navbar{
+        padding: 15px;
+    }
+    .menu-buttons li + li {
+        margin-left: 0;
+    }
+    .menu-buttons li a{
+        padding: 8px 15px;
+    }
+    .logo{
+        width: 125px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .nav-link{
+        display: block;
+        padding: 15px;
+        color: #000000;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    br{
+        display: none;
+    }
+    .heroSection {
+        padding-top: 50px;
+    }
+    .banner-content {
+        width: 90%;
+        padding: 50px 15px 0;
+        text-align: left;
+        margin: auto auto 40px;
+    }
+    .banner-content h1 {
+        font-size: 2rem;
+        margin: 35px 0;
+    }
+    .banner-content p{
+        font-size: 20px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .equalPadding, .the-road .equalPadding {
+        padding: 30px 0;
+    }
+    .margin-top0{
+        margin-top: 0 !important;
+    }
+    .sectionHeading {
+        margin-bottom: 25px;
+    }
+    .sectionHeading h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .bannerSection:before, .bannerSection:after{
+        opacity: 0.3;
+    }   
+    .bannerSection:before {
+        content: none;
+    }
+    .bannerSection:after {
+        top: 85%;
+        right: 0;
+    }
+    .banner-content .dubai-logo, .static-content-block img, .static-content-block .info {
+        width: 100%;
+    }
+    .speakers-img {
+        margin: auto auto 15px;
+    }
+    .speakers-img { 
+        width: 100%;
+        height: 100%;
+    }
+    .the-road .flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .the-road:before{
+        opacity: 0.4;
+    }
+    .metaverse .equalPadding{
+        padding-bottom: 0;
+    }
+    .metaverse-blocks:after{
+        z-index: 1;
+        right: 0;
+        opacity: 0.2;
+    }
+    .the-road .static-content-block .info h3, .metaverse .sectionHeading h2 {
+        font-size: 30px;
+    }
+    .blocks-list li h4{
+        font-size: 18px;
+    }
+    .static-content-block, .blocks-list, .speakers-list {
+        display: block;
+    }
+    .blocks-list li:not(:last-child), .speakers-list li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .static-content-block .info{
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .client-logo-list.justify-center {
+        justify-content: start;
+    }
+    .client-logo-list li {
+        margin: 0 10px;
+    }
+    /* footer */
+    .footerWrapper .flex {
+        display: block;
+    }
+    .footer-logo{
+        margin-bottom: 15px;
+    }
+    .footerWrapper .equalPadding{
+        padding-bottom: 10px;
+    }
+    .social-list .flex {
+        display: flex;
+    }
+    .footer-menu {
+        width: 100%;
+    }
+    .menu-list:not(:last-child) {
+        margin-bottom: 25px;
+    }
+    .menu-list h3{
+        margin-bottom: 15px;
+    }
+    .menu-list ul li:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    .footer-about{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .footer-about p {
+        margin: 15px 0;
+    }
+    .copyrights{
+        padding: 25px 15px;
+        text-align: left;
+    }
+    .copyrights p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .navbar{
+        padding: 15px 40px;
+    }
+    .navbar a, .menu-buttons .nav-btn{
+        font-size: 10px;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    .nav-menu li:not(:last-child) {
+        margin-right: 15px;
+    }
+    .menu-buttons .nav-btn{
+        padding: 8px 10px;
+        width: 100px;
+        text-align: center;
+    }
+    .menu-buttons li .ticket-btn {
+        padding: 10px;
+    }
+    .menu-buttons li a{
+        padding: 7px 20px;
+    }
+    .logo {
+        width: 130px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .banner-content {
+        margin: auto;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 2rem;
+        margin: 35px 0;
+    }
+    .banner-content .dubai-logo {
+        width: 300px;
+    }
+    .bannerSection:before, .bannerSection:after{
+        opacity: 0.4;
+    }
+    .bannerSection:after {
+        top: 15%;
+        right: 5%;
+    }
+    .sectionHeading h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .equalPadding, .the-road .equalPadding  {
+        padding: 30px 0;
+    }
+    .metaverse .equalPadding {
+        padding-bottom: 0;
+    }
+    .the-road .static-content-block .info h3, .metaverse .sectionHeading h2 {
+        font-size: 30px;
+    }
+    .blocks-list li h4{
+        font-size: 18px;
+    }
+    .client-logo-list li{
+        width: 24%;
+        margin: 5px 0;
+    }
+    .client-logo-list li:nth-child(-n+4) {
+        margin-bottom: 15px;
+    }
+    .client-logo-list li img {
+        margin: auto;
+        width: 165px;
+        object-fit: contain;
+        height: 50px;
+    }
+    .speakers-img {
+        width: 200px;
+        height: 200px;
+        margin: auto auto 15px;
+    }
+    .the-road:before{
+        opacity: 0.4;
+    }
+    .static-content-block img {
+        width: 300px;
+    }
+    .menu-list h3{
+        margin-bottom: 25px;
+    }
+    .metaverse-blocks:after{
+        z-index: 1;
+        top: -45%;
+        right: 0;
+        opacity: 0.2;
+    }
+    .static-content-block {
+        display: flex;
+    }
+    .static-content-block .info {
+        width: 50%;
+    }
+    .the-road .flex {
+        flex-direction: initial;
+    }
+    .blocks-list, .speakers-list {
+        display: grid;
+    }
+    .blocks-list{
+        grid-gap: 15px;
+    }
+    .blocks-list li{
+        padding: 15px;
+    }
+    .speakers-list{
+        grid-template-columns: repeat(3, 230px);
+        grid-gap: 8px;
+    }
+    .footerWrapper .flex-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-about {
+        width: auto;
+    }
+    .footer-about p {
+        margin: 15px 0 20px;
+    }
+    .footer-address {
+        margin-right: 20px;
+        width: 200px;
+    }
+}
+@media all and (device-width:1024px) and (device-height:768px) and (orientation:landscape){
+    .container{
+        padding: 15px;
+    }
+    .nav-menu, .banner-content {
+        width: auto;
+    }
+    .speakers-list {
+        grid-template-columns: repeat(4, 230px);
+    }
+}
