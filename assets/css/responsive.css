@@ -169,8 +169,13 @@
     .client-logo-list.justify-center {
         justify-content: start;
     }
-    .client-logo-list li {
-        margin: 0 10px;
+   .client-logo-list li {
+        margin: 0 5px;
+        width: 130px;
+    }
+    .client-logo-list li img {
+        width: 100%;
+        object-fit: contain;
     }
     /* footer */
     .footerWrapper .flex {
